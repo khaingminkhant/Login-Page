@@ -1,0 +1,77 @@
+body{
+    background: url(Background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 98.4vh;
+}
+
+.signin{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    height: 700px;
+    width: 600px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+input{
+    width: 100%;
+    height: 70px;
+    border-radius: 30px;
+    border: none;
+    font-size: medium;
+}
+
+input:hover{
+    background-color: gray;
+}
+
+input::placeholder{
+    padding: 20px;
+    font-size: medium;
+}
+
+input:hover::placeholder{
+    color: black;
+}
+
+#button{
+    height: 100px;
+    font-size: xx-large;
+    background-color: gray;
+    transition: 0.2s;
+}
+
+#button:hover{
+    height: 110px;
+    border-radius: 45px;
+}
+
+#text{
+    color: #f0f3ef;
+    text-align: center;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#link{
+    color: #6e6e6e;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+#link:hover{
+    color: white
+}
+
+
